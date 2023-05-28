@@ -1,0 +1,88 @@
+
+.banner{
+display: flex;
+width:100%;
+height:200px;
+background-image: url(./assets/Header\ Background.png);
+background-size: cover;
+background-position: center;
+object-fit: cover;
+
+}
+
+
+
+
+.h1{
+    display:block;
+    justify-content: center;
+    position: absolute;
+    color:#ffffff;
+    font-family: Luckiest Guy;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: auto;
+    align-items: center;
+    left:40vw;
+    
+}
+.p{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color:#ffffff;
+    font-size: 1rem;
+    margin: auto;
+    left:25vw;
+    top:16vh
+}
+
+
+.rec1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    min-width: 50vw;
+    top:26vh;
+    left:14vw;
+}
+.rec2{
+    position: absolute;
+    top:26vh;
+    left:50vw;
+}
+
+.p2{
+    position:absolute;
+    top:26vh;
+    left:33vw;
+}
+
+.p3{
+    position: absolute;
+    top:26vh;
+    left:51.9vw;
+    color:#ffffff;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+section{
+    display: flex;
+    justify-content:center;
+    margin-top: 10vh;
+}
+
+.footer{
+    height:60px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top:5vh;
+}
